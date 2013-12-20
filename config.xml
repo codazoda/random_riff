@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "randomriff"
+        versionCode="100" 
+        version   = "1.0.0">
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+    <name>Random Riff</name>
+
+    <description>
+        Generates a random guitar riff using the Minor Pentatonic scale.
+    </description>
+
+    <author href="http://www.joeldare.com" email="joel@joeldare.com">
+        Joel Dare
+    </author>
+    
+    <icon src="icon/icon.png" width="1024" height="1024" />
+    <icon src="icon/icon_57x57.png" width="57" height="57" />
+    <icon src="icon/icon_72x72.png" width="72" height="72" />
+    <icon src="icon/icon_76x76.png" width="76" height="76" />
+    
+    <preference name="webviewbounce" value="false" />
+    
+    <preference name="permissions" value="none" />
+
+</widget>
