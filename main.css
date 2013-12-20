@@ -1,3 +1,13 @@
 p {
     font-size: 60px;
 }
+
+pre {
+    text-align: center;
+}
+
+.jtab {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
