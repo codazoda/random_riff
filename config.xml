@@ -24,6 +24,8 @@
     <icon src="icon/icon_72x72.png" width="72" height="72" />
     <icon src="icon/icon_76x76.png" width="76" height="76" />
     
+    <gap:splash src="splash.png" />
+    
     <preference name="webviewbounce" value="false" />
     
     <preference name="permissions" value="none" />
