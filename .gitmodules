@@ -1,0 +1,6 @@
+[submodule "quickuser"]
+	path = quickuser
+	url = git@github.com:codazoda/quickuser.git
+[submodule "vendor/quickuser"]
+	path = vendor/quickuser
+	url = git@github.com:codazoda/quickuser.git
