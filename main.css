@@ -1,10 +1,7 @@
-p {
-    font-size: 60px;
-}
-
 pre {
     text-align: center;
     display: none;
+    font-size: 60px;
 }
 
 .jtab {
@@ -30,4 +27,8 @@ pre {
     display: block;
     width: 40px;
     height: 40px;
+}
+
+.register {
+    display: none;
 }

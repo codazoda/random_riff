@@ -3,17 +3,32 @@
 <head>
 <title>Random Riff</title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="dialog.css">
 </head>
 <body>
+<div class="register dialog-box">
+	<div class="dialog-content">
+		<div class="dialog-message">
+            <p>Please register this app.</p>
+            <br>
+            <input id="email" type="text" placeholder="Optional Email Address">
+        </div>
+        <br>
+		<a id="registerButton" class="button">Register</a>
+	</div>
+</div>
 <pre id="tab">
 </pre>
 <div id="jtab" class="jtab">
 </div>
+<div class="register dialog-overlay"></div>
 <a href="mailto:joel@joeldare.com"><img class="email" src="image/email.png"></a>
 <a href=""><img class="refresh" src="image/refresh.png"></a>
 <script src="vendor/jquery-1.10.2.min.js"></script>
 <script src="vendor/raphael-min.js"></script>
 <script src="vendor/jtab.js"></script>
+<script src="vendor/quickuser/quickuser.js"></script>
 <script src="main.js"></script>
+<script src="user.js"></script>
 </body>
 </html>

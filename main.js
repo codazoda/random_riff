@@ -12,7 +12,6 @@ scale = pentatonic();
 // Pick the first note
 picks[0] = pickFirst(totalNotes);
 previousPick = picks[0];
-//console.log('First: ' + picks[0]);
 
 // Pick the next 7 notes
 for(i=0;i<=7;i++) {
@@ -21,8 +20,6 @@ for(i=0;i<=7;i++) {
 }
 
 // Show the picks
-//console.log('List: ' + picks);
-//console.log('Tab: \n' + getTab(picks, scale));
 document.getElementById('tab').innerHTML = getTab(picks, scale);
 jtab.render( $('#jtab'), getJTab(picks, scale) );
 
