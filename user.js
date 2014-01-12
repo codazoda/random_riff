@@ -13,7 +13,7 @@ console.log(id);
 console.log(hits);
 
 // If this user has been here several times ask them to register
-if (hits >= 3) {
+if (hits >= 5) {
     // If they are not registered
     if (registered != true) {
         // Ask them to register
@@ -30,9 +30,10 @@ function register() {
     if ($("#email").val() != '') {
         // Set the users email address
         user.set("email", $('#email').val() );
-        // TODO: Submit the email address to the API
-        console.log('TODO: API Call');
     }
+    // Submit the email address to the API
+    console.log('Calling API');
+    $.get('http://joeldare.com/register/', {from: 'random_riff', email: $('#email').val()});
     // Hide the dialog
     $('.register').hide();
 }
