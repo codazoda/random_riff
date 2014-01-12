@@ -32,3 +32,13 @@ pre {
 .register {
     display: none;
 }
+
+.build {
+    font-face: arial;
+    font-size: 0.5em;
+    text-align: center;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
