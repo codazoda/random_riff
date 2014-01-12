@@ -9,6 +9,8 @@ var registered = user.get("registered");
 // Assign the register function to the onClick event of the register button
 $('#registerButton').click( function() { register(); } );
 
+$('.build').html(hits);
+
 // If this user has been here several times ask them to register
 if (hits >= 5) {
     // If they are not registered
