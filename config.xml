@@ -20,11 +20,16 @@
     </author>
     
     <icon src="icon/icon.png" width="1024" height="1024" />
+    
+    <!-- iOS Icons -->
     <icon src="icon/icon_57x57.png" width="57" height="57" />
     <icon src="icon/icon_72x72.png" width="72" height="72" />
     <icon src="icon/icon_76x76.png" width="76" height="76" />
     
-    <gap:splash src="splash.png" />
+    <!-- iOS Splash Screens -->
+    <gap:splash src="splash/splash_320x480.png" width="320" height="480" />
+    <gap:splash src="splash/splash_640x960.png" width="640" height="960" />
+    <gap:splash src="splash/splash_640x1136.png" width="640" height="1136" />
     
     <preference name="webviewbounce" value="false" />
     
