@@ -8,7 +8,7 @@ pre {
     width: 260px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .refresh {
@@ -42,4 +42,22 @@ pre {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+#keyContainer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#key {
+    height: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('image/dropdown.gif') no-repeat;
+    width: 150px;
+    height: 40px;
+    padding-left: 15px;
+    background-position: 115px;
+    background-size: 20px;
+    font-size: 16px;
 }
