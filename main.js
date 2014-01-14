@@ -4,24 +4,16 @@ var totalNotes = 11;
 // Some variables
 var picks = [];
 var previousPick;
-var scale;
+var mainScale;
 
 // Use the pentatonic scale
-scale = pentatonic();
+mainScale = pentatonic();
 
-// Pick the first note
-picks[0] = pickFirst(totalNotes);
-previousPick = picks[0];
+// Setup some events
+$('#refreshIcon').click(showPicks);
+$('#key').change(showPicks);
 
-// Pick the next 7 notes
-for(i=0;i<=7;i++) {
-  picks[i] = pickNext(totalNotes, previousPick);
-  previousPick = picks[i];
-}
-
-// Show the picks
-document.getElementById('tab').innerHTML = getTab(picks, scale);
-jtab.render( $('#jtab'), getJTab(picks, scale) );
+showPicks();
 
 /**
  * Setup and return the pentatonic scale string/fret values.
@@ -44,6 +36,29 @@ function pentatonic() {
   return pent;
 }
 
+// Show the picks
+function showPicks() {
+    
+    var transScale = [];
+    
+    // Pick the first note
+    picks[0] = pickFirst(totalNotes);
+    previousPick = picks[0];
+    
+    // Pick the next 7 notes
+    for(i=0;i<=7;i++) {
+      picks[i] = pickNext(totalNotes, previousPick);
+      previousPick = picks[i];
+    }
+    
+    // Transcribe the scale
+    transScale = transcribe(mainScale, parseInt($('#key').val()));
+    
+    // Show the picks
+    jtab.render( $('#jtab'), getJTab(picks, transScale) );
+    
+}
+
 /**
  * Return the ASCII tab for the specified set of picked notes
  * using the specified scale.
@@ -61,7 +76,7 @@ function getJTab(picks, scale) {
       fret = scale[picks[p]].substring(s,s+1);
       string = s + 1;
       if (fret != '-') {
-      tab = tab + '$' + string + ' ' + fret + ' ';
+        tab = tab + '$' + string + ' ' + fret + ' ';
       }
     }
   }
@@ -83,6 +98,25 @@ function getTab(picks, scale) {
     tab = tab + "\n";
   }
   return tab;
+}
+
+function transcribe(scale, addFrets) {
+    var newScale = [];
+    var fret = 0;
+    // Loop through the scale notes
+    for(n=0;n<=scale.length-1;n++) {
+        newScale[n] = '';
+        // Loop through the strings
+        for(s=0;s<6;s++) {
+            fret = scale[n].substring(s,s+1);
+            // If it not a hyphen
+            if (fret != '-') {
+                fret = parseInt(fret) + addFrets;
+            }
+            newScale[n] = newScale[n] + fret.toString();
+        }
+    }
+    return newScale;
 }
 
 /**
