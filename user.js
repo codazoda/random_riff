@@ -12,7 +12,7 @@ $('#registerButton').click( function() { register(); } );
 $('.build').html(hits);
 
 // If this user has been here several times ask them to register
-if (hits >= 5) {
+if (hits >= 3) {
     // If they are not registered
     if (registered != true) {
         // Ask them to register
