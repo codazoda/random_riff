@@ -30,7 +30,7 @@ function register() {
         user.set("email", $('#email').val() );
     }
     // Submit the email address to the API
-    $.get('http://joeldare.com/register/', {from: 'random_riff', email: $('#email').val()});
+    $.get('http://joeldare.com/register/', {from: 'Random Riff', os: 'iOS', email: $('#email').val()});
     // Hide the dialog
     $('.register').hide();
 }
