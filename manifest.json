@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Random Riff",
+  "description": "Write guitar music. Learn new chord changes. Get past writers block. Select a key and the Random Chords app picks a set of chords.",
+  "version": "1.0.1",
+  "app": {
+    "background": {
+      "scripts": ["platform/chrome/background.js"]
+    }
+  },
+  "icons": {
+    "128": "platform/chrome/icon_rounded_grey_128x128.png"
+  },
+  "offline_enabled": true
+}
