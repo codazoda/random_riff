@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "randomriff"
-        versionCode="100" 
-        version   = "1.0.0">
+        versionCode="101" 
+        version   = "1.0.1">
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -30,6 +30,7 @@
     <gap:splash src="splash/splash_320x480.png" width="320" height="480" />
     <gap:splash src="splash/splash_640x960.png" width="640" height="960" />
     <gap:splash src="splash/splash_640x1136.png" width="640" height="1136" />
+    <gap:splash src="splash/splash_640x1136.png" width="1536" height="2048" />
     
     <preference name="webviewbounce" value="false" />
     
