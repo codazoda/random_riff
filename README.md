@@ -8,9 +8,10 @@ Libraries
 
 Random Riff uses the following libraries.
 
-jQuery 1.10.2
-jTab 1.1.1
-Raphael 2.1.2
+- jQuery 1.10.2
+- jTab 1.1.1
+- Raphael 2.1.2
+- QuickUser.js 1.0.0
 
 
 License
