@@ -20,6 +20,10 @@ pre {
     height: 40px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .email {
     position: absolute;
     bottom: 20px;
