@@ -48,6 +48,19 @@ pre {
     margin-top: 20px;
 }
 
+.joel {
+    position: absolute;
+    font-family: arial;
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+}
+
 #keyContainer {
     text-align: center;
     margin-top: 40px;
