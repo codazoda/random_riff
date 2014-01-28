@@ -5,7 +5,7 @@
   "version": "1.0.2",
   "app": {
     "urls": [
-      "https://www.joeldare.com/app/random_riff/"],
+      "http://www.joeldare.com/app/random_riff/"],
     "launch": {
         "web_url": "http://www.joeldare.com/app/random_riff/"
     }
