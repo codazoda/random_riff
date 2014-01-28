@@ -7,7 +7,7 @@
     "urls": [
       "https://www.joeldare.com/app/riff/"],
     "launch": {
-        "web_url": "http://www.joeldare.com/app/riff/"
+        "web_url": "http://www.joeldare.com/app/random_riff/"
     }
   },
   "icons": {
