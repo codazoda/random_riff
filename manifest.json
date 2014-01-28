@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Random Riff",
   "description": "Generates a random guitar riff using the Minor Pentatonic scale and displays the tab so that you can play the riff on your guitar.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "app": {
     "urls": [
       "http://www.joeldare.com/app/random_riff/"],
