@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "randomriff"
-        versionCode="104" 
-        version   = "1.0.4">
+        versionCode="105" 
+        version   = "1.0.5">
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
