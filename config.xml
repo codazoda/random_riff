@@ -34,6 +34,9 @@
     <gap:splash src="splash/splash_640x1136.png" width="640" height="1136" />
     <gap:splash src="splash/splash_640x1136.png" width="1536" height="2048" />
     
+    <!-- Plugins -->
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    
     <preference name="webviewbounce" value="false" />
     
     <preference name="permissions" value="none" />
