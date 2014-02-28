@@ -1,5 +1,9 @@
 # Version Information
 
+Current
+
+  - Added Firefox OS support
+
 1.0.5
 
   - Added the cordova.js file
