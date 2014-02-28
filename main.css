@@ -67,7 +67,6 @@ pre {
 }
 
 #key {
-    height: 25px;
     -webkit-appearance: none;
     -moz-appearance: none;
     background: url('image/dropdown.gif') no-repeat;
@@ -77,4 +76,14 @@ pre {
     background-position: 115px;
     background-size: 20px;
     font-size: 16px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    border: 1px solid black;
+}
+
+/* Firefox only stuff */
+@-moz-document url-prefix() {
+    #key {
+        padding-top: 9px;
+    }
 }
