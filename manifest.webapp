@@ -1,0 +1,14 @@
+{
+  "name": "Random Riff",
+  "description": "Generates a random guitar riff using the Minor Pentatonic scale and displays the tab so that you can play the riff on your guitar.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/platform/firefox/icon_round_128x128.png",
+    "60": "/platform/firefox/icon_round_60x60.png"
+  },
+  "developer": {
+    "name": "Joel Dare",
+    "url": "http://www.joeldare.com"
+  },
+  "default_locale": "en"
+}
