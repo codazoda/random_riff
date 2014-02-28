@@ -4,9 +4,6 @@
 
   - Added the cordova.js file
   - Added the inAppBrowser Cordova plugin
-
-1.0.5
-
   - Added this version file
 
 1.0.4
