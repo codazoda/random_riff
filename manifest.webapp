@@ -3,7 +3,10 @@
   "description": "Generates a random guitar riff using the Minor Pentatonic scale and displays the tab so that you can play the riff on your guitar.",
   "launch_path": "/index.html",
   "icons": {
+    "256": "/platform/firefox/icon_round_256x256.png",
     "128": "/platform/firefox/icon_round_128x128.png",
+    "120": "/platform/firefox/icon_round_120x120.png",
+    "90": "/platform/firefox/icon_round_90x90.png",
     "60": "/platform/firefox/icon_round_60x60.png"
   },
   "developer": {
