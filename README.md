@@ -1,7 +1,7 @@
 Random Riff
 ===========
 
-Randomly generates a guitar riff using standard scales such as the Pentatonic.
+Randomly generates a guitar riff using standard scales such as the Pentatonic. Live at https://riff.joeldare.com
 
 Libraries
 =========
